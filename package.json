@@ -1,0 +1,38 @@
+{
+  "name": "@lx-yt/vite-config-default",
+  "version": "0.0.3",
+  "description": "A default config for vite.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lx-yt/vite-config-default.git"
+  },
+  "keywords": [
+    "vite",
+    "config",
+    "default"
+  ],
+  "author": "Lexyth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lx-yt/vite-config-default/issues"
+  },
+  "homepage": "https://github.com/lx-yt/vite-config-default#readme",
+  "devDependencies": {
+    "vite": "*",
+    "vite-plugin-checker": "*",
+    "vite-plugin-dts": "*",
+    "vite-plugin-eslint2": "*",
+    "vitest": "*"
+  },
+  "peerDependencies": {
+    "vite": ">=5.3.4",
+    "vite-plugin-checker": ">=0.7.2",
+    "vite-plugin-dts": ">=4.0.0-beta.1",
+    "vite-plugin-eslint2": ">=4.4.0",
+    "vitest": ">=1.6.0"
+  }
+}
