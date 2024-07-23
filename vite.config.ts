@@ -33,6 +33,7 @@ const baseConfig: UserConfig = {
   },
   test: {
     environment: "jsdom",
+    setupFiles: ["vitest-setup.ts"],
   },
 };
 

@@ -1,5 +1,3 @@
-/// <reference types="vitest/config" />
-
 import react from "@vitejs/plugin-react";
 
 import type { UserConfig } from "vite";
@@ -12,9 +10,6 @@ const reactConfig: UserConfig = {
     },
   },
   plugins: [react()],
-  test: {
-    setupFiles: ["vitest-setup.ts"],
-  },
 };
 
 export default reactConfig;
